@@ -1,0 +1,43 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Backend specific folders (these will be deployed separately)
+server/
+uploads/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build files
+/dist
+/build
+
+# Local development SSL certificates
+*.pem
+*.key
+*.crt 
